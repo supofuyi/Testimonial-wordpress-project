@@ -1,0 +1,21 @@
+Ignore sensitive files
+wp-config.php
+
+Ignore uploads and cache
+/wp-content/uploads/
+/wp-content/cache/
+
+ Ignore logs and debug files
+*.log
+*.debug
+
+Ignore system files
+.DS_Store
+Thumbs.db
+
+Ignore Node.js modules (if used)
+node_modules/
+
+ Ignore IDE settings
+.vscode/
+.idea/
